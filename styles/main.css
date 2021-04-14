@@ -1,0 +1,26 @@
+body {
+  background-color: aqua;
+  background-image: url("https://i.pinimg.com/originals/88/82/bc/8882bcf327896ab79fb97e85ae63a002.gif");
+  background-size: cover;
+}
+
+.navbar-link {
+  color: #00ffff;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  font-size: 2rem;
+  margin: 2rem;
+}
+
+.real-nav {
+  background-color: aqua;
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  font-size: 2rem;
+  margin: 2rem;
+}
