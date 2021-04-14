@@ -6,9 +6,41 @@ body {
     background-size: cover; 
 }
 
+.header-flex {
+    display: flex;
+    justify-content: space-around;
+}
+
 h1  {
     font-family: 'Comic Neue', cursive;
-    color: white;
+    color: #ff0;
     text-align: center;
     font-size: 15rem;
+    margin: 0;
+    line-height: 14rem;
+    text-shadow: 6px 6px 9px rebeccapurple;
+}
+
+.video {
+    text-align: center;
+    margin-bottom: 10rem;
+}
+
+.flex-box {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.classTimeBox {
+    background-color: white;
+    width: 30rem;
+}
+
+.aside {
+    background-color: white;
+    width: 30rem;
+}
+
+.navbar {
+    display: flex;
 }
