@@ -4,7 +4,7 @@ body {
   background-size: cover;
 }
 .text {
-  color: white;
+  color: red;
 }
 .div-a {
   text-align: left;
@@ -15,14 +15,6 @@ body {
 
 .div-c {
   text-align: right;
-}
-
-.div-d {
-  text-align: left;
-}
-
-.div-e {
-  text-align: center;
 }
 
 .game {
