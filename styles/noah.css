@@ -28,12 +28,11 @@ body {
 .game {
   display: flex;
   justify-content: center;
-  padding: 20px;
   font-size: 64px;
 }
 
 .rules {
   text-align: center;
-  padding: 20px;
+  margin: -45px;
   font-size: 64px;
 }
