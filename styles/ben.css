@@ -21,9 +21,34 @@ body {
   }
 
   a {
-      color: white;
+        color: white;
+        text-decoration: none;
+        font-weight: bold; 
   }
 
   .crocImage {
     border-radius: 2em;
   }
+
+  a:link, :visited{
+    color: pink;
+}
+
+a:hover{
+    text-decoration: none;
+    font-weight: bold; 
+    color: white;
+}
+
+.current-page{
+    border-bottom: solid blue 2px;
+}
+
+.navBar {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0px;
+    padding: 20px;
+    background-color: pink
+}
+
