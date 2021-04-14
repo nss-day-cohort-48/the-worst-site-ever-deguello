@@ -36,3 +36,27 @@ body {
   margin: -45px;
   font-size: 64px;
 }
+
+.navbar-link {
+  color: #000c0c;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  font-size: 2rem;
+  margin: 2rem;
+}
+
+.real-nav:hover {
+  background-color: black;
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  font-size: 2rem;
+  margin: 2rem;
+}
+.jigsaw {
+  text-align: right;
+}
