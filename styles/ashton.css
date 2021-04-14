@@ -1,0 +1,14 @@
+body {
+    background-image: url("https://steamuserimages-a.akamaihd.net/ugc/950716629248934502/CAB19995DBE3FE7C8F431B6F674DC12119215595/");
+    background-attachment: fixed; 
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size: cover; 
+}
+
+h1  {
+    font-family: 'Comic Neue', cursive;
+    color: white;
+    text-align: center;
+    font-size: 15rem;
+}
