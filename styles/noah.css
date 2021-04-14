@@ -1,0 +1,39 @@
+body {
+  background-color: black;
+  background-image: url("https://thumbs.gfycat.com/OnlyFavorableAmurminnow-small.gif");
+  background-size: cover;
+}
+.text {
+  color: white;
+}
+.div-a {
+  text-align: left;
+}
+.div-b {
+  text-align: center;
+}
+
+.div-c {
+  text-align: right;
+}
+
+.div-d {
+  text-align: left;
+}
+
+.div-e {
+  text-align: center;
+}
+
+.game {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  font-size: 64px;
+}
+
+.rules {
+  text-align: center;
+  padding: 20px;
+  font-size: 64px;
+}
