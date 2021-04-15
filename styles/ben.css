@@ -1,14 +1,24 @@
 body {
-   background-image: url(pfp.png); 
+   /* background-image: url(pfp.png);  */
    justify-content: right;
    font-family: 'Comic Neue', cursive;
    color: white;
-   animation: spinX 1s infinite;
+   animation: mymove 30s ;
+   animation-duration: 3s;
  }
+  @keyframes mymove {
+    50% {transform: rotate(360deg);}
+}
 
- @keyframes spinX {
-    69% {background-position: left;}
- }
+html {
+    background-image: url(pfp.png);
+    animation-duration: 1s;
+    animation-name: spin;
+    animation-iteration-count: infinite;
+}
+@keyframes spin{
+    69% {background-position: center;} 
+  }
 
 .studentCrocs {
     text-align: center;
