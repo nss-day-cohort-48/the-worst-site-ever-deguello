@@ -3,14 +3,32 @@ body {
    justify-content: right;
    font-family: 'Comic Neue', cursive;
    color: white;
-}
+   animation: spinX 1s infinite;
+ }
+
+ @keyframes spinX {
+    69% {background-position: left;}
+ }
 
 .studentCrocs {
-    text-align: right;
-    
+    text-align: center;
+  
+}
+.crocInfoContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
-.logo {
+.crocInfo {
+    border: 1px solid black;
+    border-radius: 2em;
+    padding: 5em;
+    max-width: 8em;
+}
+
+.alternate {
     height: 18rem;
     text-align: left;
     border-radius: 10em;
@@ -28,10 +46,12 @@ body {
 
   .crocImage {
     border-radius: 2em;
+    text-align: center;
   }
 
   a:link, :visited{
-    color: pink;
+    color: orangered; 
+    
 }
 
 a:hover{
@@ -41,14 +61,15 @@ a:hover{
 }
 
 .current-page{
-    border-bottom: solid blue 2px;
+    border-bottom: solid greenyellow 2px;
 }
 
-.navBar {
+.navBar:hover {
     display: flex;
     justify-content: space-around;
     margin: 20px 0px;
     padding: 20px;
-    background-color: pink
+    background-color: orangered;
+
 }
 
