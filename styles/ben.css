@@ -10,7 +10,7 @@ body {
     50% {transform: rotate(360deg);}
 }
 
-html {
+.benSpin {
     background-image: url(pfp.png);
     animation-duration: 1s;
     animation-name: spin;
