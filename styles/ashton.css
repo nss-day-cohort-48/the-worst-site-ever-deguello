@@ -3,12 +3,27 @@ body {
     background-attachment: fixed; 
     background-position: center;
     background-repeat: no-repeat; 
-    background-size: cover; 
+    background-size: cover;
+    margin: 0 10rem; 
+}
+
+.main-flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .header-flex {
     display: flex;
     justify-content: space-around;
+    margin-bottom: 10rem;
+}
+
+.article-flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 15rem;
 }
 
 h1  {
@@ -19,16 +34,24 @@ h1  {
     margin: 0;
     line-height: 14rem;
     text-shadow: 6px 6px 9px rebeccapurple;
+    margin-bottom: 25rem;
 }
 
 .video {
     text-align: center;
-    margin-bottom: 10rem;
+    margin-bottom: 40rem;
 }
 
-.flex-box {
+.marquee {
+    font-family: 'Comic Neue', cursive;
+    font-size: 6rem;
+    color: rgb(255, 255, 0);
+}
+
+.body-flex {
     display: flex;
     justify-content: space-evenly;
+    margin-bottom: 20rem;
 }
 
 .classTimeBox {
@@ -36,11 +59,44 @@ h1  {
     width: 30rem;
 }
 
+.classTimeBox-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.form   {
+    margin-top: 20rem;
+}
+
+.class-list {
+    line-height: 6rem;
+    text-align: right;
+}
+
 .aside {
-    background-color: white;
     width: 30rem;
 }
 
 .navbar {
     display: flex;
+    background-image: url(https://media.giphy.com/media/4wOJxuBY6axxxVPZyW/giphy.gif);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+
+li {
+    list-style: none;
+}
+
+.navbar-link {
+    color: rgba(255, 255, 255, 0.016);
+    font-size: 5rem;
+}
+
+.navbar-link:hover {
+    color: rgb(21, 255, 0)
 }

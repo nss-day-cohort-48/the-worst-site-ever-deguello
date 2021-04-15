@@ -1,0 +1,27 @@
+
+body {
+    background-image: url("https://uploads.celebrityinsider.org/uploads/2017/04/Richard-Simmons.jpg?format=webp%2Cjpg&w=853");
+    background-attachment: fixed; 
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size: cover;
+    margin: 0 10rem; 
+}
+
+.flex {
+    margin-top: 48rem;
+    margin-right: 20rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+button {
+    border-radius: 6rem;
+    background-color: red;
+    color: white;
+    font-family: 'Comic Neue', cursive;
+    font-size: 2rem;
+    height: 100px;
+    width: 100px
+}
